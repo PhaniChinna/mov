@@ -1,0 +1,85 @@
+.Home-Container {
+  background-color: #131313;
+  background-size: cover;
+  height: 78vh;
+  width: auto !important;
+  height: 35vw !important;
+  padding: 2px;
+}
+
+.Home-image-spider-man {
+  width: 100%;
+  margin-top: -90px;
+}
+
+.Home-spider-man-container {
+  margin-top: -390px;
+  margin-left: 50px;
+}
+
+.Home-spider-man-heading {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 62px;
+  color: #ffffff;
+}
+
+.Home-spider-man-Paragraph {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: -25px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.Home-button-play-button {
+  width: 74px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 4px;
+  flex-grow: 0;
+  outline: none;
+  margin-left: 10px;
+  margin-top: -90px;
+  border: none;
+  border: 1px solid white;
+}
+
+@media screen and (max-width: 767px) {
+  .Home-image-spider-man {
+    margin-top: -80px;
+    height: 40vh !important;
+  }
+
+  .Home-spider-man-heading {
+    font-family: 'HK Grotesk';
+    font-size: 30px;
+    color: #ffffff;
+  }
+  .Home-spider-man-Paragraph {
+    font-family: 'HK Grotesk';
+    font-size: 14px;
+    margin-top: -30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Home-spider-man-container {
+    margin-left: 20px;
+    margin-top: -210px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Home-Container {
+    background-color: #131313;
+    background-size: cover;
+    height: 30vh !important;
+    padding: 2px;
+  }
+}

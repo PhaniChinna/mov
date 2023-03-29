@@ -1,0 +1,120 @@
+.Login-container {
+  background-image: url('https://res.cloudinary.com/dkwof0tuj/image/upload/v1680071364/netfilx_1_ivb9o8.png');
+  height: 100vh;
+  background-size: cover;
+  padding: 2px;
+}
+
+.Login-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Movies-LoginPage {
+  margin-top: 30px;
+  margin-left: -800px;
+}
+
+.Login-form-container {
+  width: 350px;
+  max-height: 440px;
+  background: #0c0b10;
+  opacity: 0.8;
+  margin-top: 80px;
+  border-radius: 8px;
+}
+
+.Form-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Form-Heading {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Login-user-username {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  margin-bottom: 3px;
+  line-height: 16px;
+  margin-left: -180px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.Login-user-input {
+  background: #333333;
+  outline: none;
+  width: 260px;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: white;
+  padding: 5px;
+}
+
+.Login-user-password {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  margin-bottom: 3px;
+  line-height: 16px;
+  margin-left: -180px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.Login-user-password-input {
+  background: #333333;
+  outline: none;
+  width: 260px;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: white;
+  padding: 5px;
+}
+
+.Login-input-button {
+  width: 260px;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  color: #f8fafc;
+  background-color: #e50914;
+}
+
+@media screen and (max-width: 567px) {
+  .Movies-LoginPage {
+    margin: 27px;
+    margin-left: -100px;
+  }
+  .Login-form-container {
+    margin-top: 130px;
+  }
+}
